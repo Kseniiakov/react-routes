@@ -3,7 +3,7 @@ import React from 'react'
 class MessagePage extends React.Component {
   render() {
     return (
-      <div>MessagePage</div>
+      <div>my MessagePage</div>
     )
   }
 }

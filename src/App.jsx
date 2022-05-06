@@ -29,13 +29,13 @@ class App extends React.Component {
     return (
       <BrowserRouter>
 
-        <header>
+        <header id='mainHeader'>
           
           <Link to="/">
-            <img src="" alt="logo" width="50" />
+            <img className='logo' src="./images/logo.svg" alt="logo" />
           </Link>
 
-          <nav>
+          <nav className='navigation'>
             <ul>
               <li>
                 <Link to='/'>Home</Link>
