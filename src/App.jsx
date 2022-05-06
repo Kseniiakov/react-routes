@@ -76,11 +76,11 @@ class App extends React.Component {
               <SignupPage />
             </Route>
                   
-            <Route exact path='/profile'>
-              <PrivateRoute auth={this.state.user}>
-                <ProfilePage />
-              </PrivateRoute>
-            </Route>
+            <PrivateRoute 
+              route={{ exact: true, path: "/profile" }} 
+              auth={this.state.user}>
+              <ProfilePage />
+            </PrivateRoute>
   
             <Route exact path='/message'>
               <MessagePage />
