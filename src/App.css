@@ -3,7 +3,7 @@ main, #mainHeader {
 }
 
 #mainHeader {
-  background-color: #444B6E;
+  background-color: #A374D5;
 
   display: flex;
   justify-content: flex-start;
@@ -33,11 +33,11 @@ main, #mainHeader {
   font-size: 20px;
   font-weight: 500;
 
-  color: #F8F991;
+  color: #FFFBBE;
 
   padding: 0 10px;
 }
 
 .navigation ul li a:hover {
-  color: #9AB87A;
+  color: #EEC1EA;
 }
