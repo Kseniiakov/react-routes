@@ -1,0 +1,33 @@
+.counterBtn {
+    border: none;
+    border-radius: 3px;
+
+    font-size: 18px;
+    cursor: pointer;
+
+    padding: 10px 20px;
+    margin: 10px;
+    min-width: 120px;
+
+    background-color: #EFEE9D;
+}
+
+.counterBtn:hover {
+    background-color: #e0df7b;
+}
+
+.btnAdd {
+    background-color: #D1EAA3;
+}
+
+.btnAdd:hover {
+    background-color: #bddb86;
+}
+
+.btnSubtract {
+    background-color: #FEA5AD;
+}
+
+.btnSubtract:hover {
+    background-color: #f78e97;
+}
